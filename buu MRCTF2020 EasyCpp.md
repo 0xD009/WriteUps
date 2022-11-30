@@ -12,25 +12,25 @@ tags:
 ---
 
 部分逻辑如下：
-![[res/Pasted image 20221027000319.png]]
+![](res/Pastedimage20221027000319.png)
 
 事实上，对于C++的逆向，看类名和方法名（不知道是不是叫这个）来分析是比较靠谱的，因为C++中的类本质是结构体，比较复杂，用动调跟的话也是一头雾水
 
 这里其他都是基本操作，只有depart和三个匿名函数是值得研究的
-![[res/Pasted image 20221027000605.png]]
+![](res/Pastedimage20221027000605.png)
 第一个里边嵌套了一个匿名函数，只是简单地进行了异或1
 
-![[res/Pasted image 20221027000655.png]]
+![](res/Pastedimage20221027000655.png)
 第二个是进行了一些替换，第一次见到这么系统的数字换字母
 
-![[res/Pasted image 20221027000735.png]]
+![](res/Pastedimage20221027000735.png)
 第三个即为check
 
-![[res/Pasted image 20221027000757.png]]
+![](res/Pastedimage20221027000757.png)
 depart函如其名，是进行了分解，需要一丢丢代数学基础知识，能看出来这是一个质因数分解
 
 然后就理清了加密逻辑，然后找到如下密文，在初始化的时候就进行了赋值
-![[res/Pasted image 20221027001015.png]]
+![](res/Pastedimage 0221027001015.png)
 
 下面是解题脚本：
 ```python

@@ -12,9 +12,10 @@ tags:
 ---
 
 纯动调题，跟下面这些函数
-![[res/Pastedimage20221102003006.png]]![[res/Pastedimage20221102003045.png]]
-![[res/Pastedimage20221102003105.png]]
-![[res/Pastedimage20221102003139.png]]
+![](res/Pastedimage20221102003006.png)
+![](res/Pastedimage20221102003045.png)
+![](res/Pastedimage20221102003105.png)
+![](res/Pastedimage20221102003139.png)
 然后里面还有两层
 
 逻辑是换表（这个简单，前面没有指出函数在哪），然后对加密出来的字符做映射，射到normaltable-1的位置上

@@ -19,14 +19,14 @@ https://bbs.pediy.com/thread-258108.htm
 https://bbs.pediy.com/thread-214562-1.htm
 
 解题过程在IDA的注释里写好了
-![[res/Pasted image 20221117214713.png]]
+![](res/Pastedimage20221117214713.png)
 进来是把一串字符变成了数，用了一个特殊的table，后面对输入也是这样变换的
 后来知道这是RSA公钥，这种大数应该算RSA的一个特征
 
-![[res/Pasted image 20221117214846.png]]
+![](res/Pastedimage20221117214846.png)
 一些注意点
 
-![[res/Pasted image 20221117214946.png]]
+![](res/Pastedimage20221117214946.png)
 主加密，根据username生成了一个公钥e然后实际上是不准的，加遍历100遍，其中有一次是正确的即可，其实考验了对RSA算法的熟悉程度，不然找不到e的，这里我们读出e的初始值，然后找到e+2与$\varphi(n)$互素，细节在图里，不多赘述
 
 最后是解密部分

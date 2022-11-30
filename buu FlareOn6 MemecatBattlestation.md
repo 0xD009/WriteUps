@@ -11,16 +11,16 @@ tags:
 ---
 
 Main
-![[res/Pasted image 20221106000446.png]]
+![](res/Pastedimage20221106000446.png)
 
 Stage1Form
-![[res/Pasted image 20221106000419.png]]
+![[res/Pastedimage20221106000419.png]]
 
 Stage2Form
-![[res/Pasted image 20221106000320.png]]
+![](res/Pastedimage20221106000320.png)
 
 VictoryForm
-![[res/Pasted image 20221106000927.png]]
+![](res/Pastedimage20221106000927.png)
 
 exp：
 ```python

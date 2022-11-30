@@ -12,7 +12,7 @@ tags:
 ---
 
 其实并不很难，先去掉混淆，然后看
-![[res/Pasted image 20221027205036.png]]
+![](res/Pastedimage20221027205036.png)
 
 循环地干同一件事
 

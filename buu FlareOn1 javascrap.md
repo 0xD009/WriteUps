@@ -12,7 +12,7 @@ tags:
 ---
 
 直接看png，不过其实在html里也能找到png的痕迹
-![[res/Pasted image 20221116002005.png]]
+![](res/Pastedimage20221116002005.png)
 明显的隐写php代码
 
 ```php

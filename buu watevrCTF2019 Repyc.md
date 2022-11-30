@@ -11,7 +11,7 @@ tags:
 - vm
 ---
 
-[[Python逆向]]
+[Python逆向](Python逆向.md)
 python虚拟机
 看代码就明白了
 ```python

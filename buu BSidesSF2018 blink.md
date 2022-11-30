@@ -13,7 +13,7 @@ tags:
 
 
 如图，很简单，把字符变成图片
-![[res/Pastedimage20221020211840.png]]
+![](res/Pastedimage20221020211840.png)
 <br>
 脚本是这样：
 ```python
@@ -29,4 +29,4 @@ with open("flag.jpg", 'wb') as f:
 ```
 
 解出来之后是这样：
-![[res/flag.jpg]]
+![](res/flag.jpg)

@@ -14,12 +14,12 @@ tags:
 
 用golanghelper跑出来的内容差强人意
 同时它正常的使用顺序应该是
-![[res/Pasted image 20221116180827.png]]
+![](res/Pastedimage20221116180827.png)
 就大概挨个点一遍，事实上前面两个是确定版本用的
 跑出来甚至伪代码里关键逻辑会缺失，有空的话还是要换上高版本IDA
 
 讲一下逻辑，除开flag壳子的话，前面24位是用3DES加解密的
-![[res/Pasted image 20221116181137.png]]
+![](res/Pastedimage20221116181137.png)
 cyberchef提供了Triple DES解密，照这个来就好，通过原理来解的话，解不出，不知道原因
 然后是注意先用base64给它还原出来
 

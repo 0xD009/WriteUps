@@ -12,7 +12,7 @@ tags:
 ---
 
 本以为是ollvm一类的混淆，事实上只是自己把一些运算函数复杂化了
-![[res/Pastedimage20221021204930.png]]
+![](res/Pastedimage20221021204930.png)
 随便看一下，然后动调跟一下，把逻辑理清楚：
 ```python
 str -= v31[j - 1]

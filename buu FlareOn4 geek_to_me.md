@@ -11,7 +11,7 @@ tags:
 - smc
 ---
 
-![[res/Pasted image 20221123232021.png]]
+![](res/Pastedimage20221123232021.png)
 
 idapython
 ```python

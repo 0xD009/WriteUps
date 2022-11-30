@@ -1,9 +1,9 @@
 混学时选手，正好800分
-![[res/Pasted image 20221103220310.png]]
+![](res/Pastedimage20221103220310.png)
 
 ## 0x1 签到
 `flag{HappyHacking2022-f6dd1b7707}`
-![[res/Pasted image 20221103220325.png]]
+![](res/Pastedimage20221103220325.png)
 构造请求`?result=2022`即可
 
 ## 0x2 猫咪问答 一半的题目喵
@@ -11,49 +11,49 @@
 第一题因为是队内选手所以知道2017年，然后枚举月份即可
 
 第二题去`ftp.lug.ustc.edu.cn`找ppt
-![[res/Pasted image 20221103220937.png]]
+![](res/Pastedimage20221103220937.png)
 
 来到这一页：
-![[res/Pasted image 20221103221137.png]]
+![](res/Pastedimage20221103221137.png)
 应该就是这个，图里看一下，发现1080p 25fps，又不像是播放器，马上想到剪辑软件
 
 百度得到：
-![[res/Pasted image 20221103221518.png]]
+![](res/Pastedimage20221103221518.png)
 
 第三题
-![[res/Pasted image 20221103221655.png]]
+![](res/Pastedimage20221103221655.png)
 
 ## 0x3 家目录里的秘密 VSCode里的flag
 `flag{finding_everything_through_vscode_config_file_932rjdakd}`
 容易找到
-![[res/Pasted image 20221103222104.png]]
+![](res/Pastedimage20221103222104.png)
 
 ## 0x4 HeiLang
 `flag{6d9ad6e9a6268d96-7a5dfd7e75222d83}`
 做这个替换
-![[res/Pasted image 20221103222259.png]]
+![](res/Pastedimage20221103222259.png)
 
 赋值全部正常了
-![[res/Pasted image 20221103222414.png]]
+![](res/Pastedimage20221103222414.png)
 
 没有说何语言不正确的意思，主要是我没装heilang环境
 
 ## 0x5 旅行照片2.0 照片分析
 `flag{1f_y0u_d0NT_w4nt_shOw_theSe_th3n_w1Pe_EXlF}`
-![[res/Pasted image 20221103222642.png]]
-![[res/Pasted image 20221103222718.png]]![[res/Pasted image 20221103222738.png]]
+![](res/Pastedimage20221103222642.png)
+![](res/Pastedimage20221103222718.png)![](res/Pastedimage20221103222738.png)
 
 格式整理
-![[res/Pasted image 20221103222800.png]]
+![](res/Pastedimage20221103222800.png)
 
 ## 0x6 线路板
 `flag{8_1ayER_rogeRS_81ind_V1a}`
 直接打开文件看全是这种，XY很惹眼
-![[res/Pasted image 20221103223232.png]]
+![](res/Pastedimage20221103223232.png)
 
 找了个软件叫GerbView，打开看
 找到有flag的那张板子然后开始删文件里的东西，删到某一步就看到了
-![[res/Pasted image 20221103223426.png]]
+![](res/Pastedimage20221103223426.png)
 
 以下是剩下的
 ```
@@ -502,13 +502,13 @@ M02*
 `flag{Y0u_rea1ly_kn0w_Win32API_89ab91ac0c}`
 菜鸟的老本行
 在这一步修改zeroflag绕过反调试
-![[res/Pasted image 20221103223825.png]]
+![](res/Pastedimage20221103223825.png)
 
 只要进入这个0x111，114514的分支就能拿到flag了
-![[res/Pasted image 20221103224142.png]]
+![](res/Pastedimage20221103224142.png)
 
 注意看0x1BF52，容易看出这就是十六进制的114514，做一个比较然后做一个跳转，前面有一个jmp跳转到生成窗口的地方，set eip跳过它，然后改两次zf到生成flag文件的地方，继续执行就拿到flag了
-![[res/Pasted image 20221103224924.png]]
+![](res/Pastedimage20221103224924.png)
 
-![[res/Pasted image 20221103225202.png]]
+![](res/Pastedimage20221103225202.png)
 
